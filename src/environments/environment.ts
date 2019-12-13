@@ -3,7 +3,20 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  googleMapsAPIKey: 'AIzaSyA0n3pGcbHHS-Mw4wF_89aRQab3ho6G0Rg',
+
+  // Your web app's Firebase configuration
+  firebase: {
+    apiKey: 'AIzaSyCBZPvcUr5HEKL-57ocXV3V6TKOWwGSlBo',
+    authDomain: 'ionic-angular-course-2f7ed.firebaseapp.com',
+    databaseURL: 'https://ionic-angular-course-2f7ed.firebaseio.com',
+    projectId: 'ionic-angular-course-2f7ed',
+    storageBucket: 'ionic-angular-course-2f7ed.appspot.com',
+    messagingSenderId: '443013972287',
+    appId: '1:443013972287:web:b87d9bc7f667a4f27bd38a',
+    measurementId: 'G-PXEW6P9DN9'
+  }
 };
 
 /*
@@ -14,3 +27,7 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+
+

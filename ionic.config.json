@@ -1,5 +1,7 @@
 {
   "name": "state-01-using-rxjs",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
